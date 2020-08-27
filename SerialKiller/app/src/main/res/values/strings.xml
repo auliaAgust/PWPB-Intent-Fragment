@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SerialKiller</string>
+    <string name="killer_name">Nama Pembunuh</string>
+    <string name="detail">Detail</string>
+    <string name="tentang_pembuat">Tentang Pembuat</string>
+    <string name="textview">TextView</string>
+    <string name="judul">Top #10 Serial Killers</string>
+    <string name="descPembuat">Namanya Aulia Agustina, biasa dipanggil Agus. Sedang mengemban pendidikan di SMKN 4 Bandung jurusan RPL.</string>
+    <string name="descBio">Github: auliaguss \nEmail: auliaguss@gmail.com</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:id="@+id/rv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Judul"
+            android:id="@+id/tv_nama"
+            android:text="@string/textview" />
+
+        <ImageView
+            android:id="@+id/foto_pelaku"
+            android:layout_width="151dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_bio_pem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/foto_pelaku"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alphabet"
+            android:text="@string/textview"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_det_pem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_bio_pem"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/alphabet"
+            android:text="@string/textview"
+            android:textColor="@android:color/black"
+            android:textSize="26sp" />
+    </LinearLayout>
+    <!--        app:srcCompat="@drawable/harold_shipman" -->
+
+</ScrollView>
